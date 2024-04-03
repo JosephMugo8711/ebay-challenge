@@ -15,7 +15,6 @@ export default function Checkout() {
 
     return(
         <>
-
            <MainLayout>
              <div id="CheckoutPage" className="mt-4 max-w-[1100px] mx-auto">
                 <div className="mt-4 mb-4 text-2xl font-bold">
