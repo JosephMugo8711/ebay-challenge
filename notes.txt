@@ -9,6 +9,7 @@ AUTH:
     https://egghead.io/lessons/next-js-make-user-state-globally-accessible-in-next-js-with-react-context-and-providers
 
 PRISMA:
+    npx prisma init
     npx prisma db seed
     npx prisma migrate reset
     npx prisma db pull
