@@ -10,8 +10,8 @@ ensuring convenience and security in every transaction.
 
 Future plans 
 
-Incorporating popular payment solutions such as M-Pesa and expanding our payment gateway to accommodate card payments via various banks. 
-These enhancements will not only broaden our user base but also establish our platform as a versatile and reliable choice for online transactions.
+Incorporating popular payment solutions such as M-Pesa and expanding  payment gateway to accommodate card payments via various banks. 
+These enhancements will not only broaden the user base but also establish our platform as a versatile and reliable choice for online transactions.
 ******
 *****
 ## SetUp Instruction
