@@ -1,10 +1,17 @@
-#   Ebay-clone
+#   Ebay-challenge
 *****
 ### Author :
 1. Mugo Joseph Wamiti 
 ****
 ## Project Description
-I am currently building and developing an e-commerce website that helps people buy and sell goods and services online.
+A sophisticated e-commerce platform aimed at facilitating seamless transactions for buying and selling goods and services online. 
+Drawing inspiration from industry leaders like eBay, the platform is meticulously designed to offer a user-centric experience, 
+ensuring convenience and security in every transaction.
+
+Future plans 
+
+Incorporating popular payment solutions such as M-Pesa and expanding our payment gateway to accommodate card payments via various banks. 
+These enhancements will not only broaden our user base but also establish our platform as a versatile and reliable choice for online transactions.
 ******
 *****
 ## SetUp Instruction
