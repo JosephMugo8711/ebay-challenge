@@ -6,13 +6,18 @@ import {AiOutlineShoppingCart} from "react-icons/ai"
 import { useUser } from "@/app/context/user"
 import { useState } from "react"
 import { useCart } from "@/app/context/cart"
+import { useRouter } from "next/navigation"
+import ClientOnly from "@/app/components/ClientOnly"
 
 export default function TopMenu() {
+     // Initialize hooks and state variables
+    const router = useRouter();
     const user = useUser();
     const cart = useCart();
-    
+   
     const [isMenu, setIsMenu] = useState(false);
 
+     // Function to determine if user is logged in
     const isLoggedIn = () => {
         if (user && user?.id) {
             return (
@@ -91,22 +96,24 @@ export default function TopMenu() {
                         <img  width={32} src="/images/uk.png"/>
                         Ship to
                     </li>
-                    <li className="px-3 cursor-pointer hover:underline">
-                        <div className="relative">
-                            <AiOutlineShoppingCart size={22}/>
-                            
-                            {
-                                cart.cartCount() > 0 ? 
+                    <ClientOnly>
+                        <li className="px-3 cursor-pointer hover:underline">
+                            <div onClick={() => router.push('/cart')} className="relative">
+                                <AiOutlineShoppingCart size={22}/>
                                 
-                                <div className="absolute text-[10px] -top-[2px] -right-[5px] bg-red-500 w-[14px] h-[14px] rounded-full text-white">
-                                   <div className="flex items-center justify-center -mt-[1px]">{cart.cartCount()}</div>
-                                
-                                 </div>
-                            : <div></div>}
+                                {
+                                    cart.cartCount() > 0 ? 
+                                    
+                                    <div className="absolute text-[10px] -top-[2px] -right-[5px] bg-red-500 w-[14px] h-[14px] rounded-full text-white">
+                                    <div className="flex items-center justify-center -mt-[1px]">{cart.cartCount()}</div>
+                                    
+                                    </div>
+                                : <div></div>}
 
-                        </div>
-                        
-                    </li>
+                            </div>
+                            
+                        </li>
+                    </ClientOnly>
                     
                 </ul>
                  
