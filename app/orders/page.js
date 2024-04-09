@@ -37,7 +37,6 @@ export default function Orders() {
     
     return (
         <>
-            {/* Main layout for the component */}
             <MainLayout>
                 <div id="OrdersPage" className="mt-4 max-w-[1200px] mx-auto px-2 min-h-[50vh]">
                     <div className="bg-white w-full p-6 min-h-[150px]">
