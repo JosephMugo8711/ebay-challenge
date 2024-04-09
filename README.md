@@ -29,24 +29,24 @@ These enhancements will not only broaden the user base but also establish our pl
 
 *****
 ## Dependencies
--  @prisma/client,
--  @stripe/stripe-js,
--  @supabase/auth-helpers-nextjs,
--  @supabase/auth-helpers-react,
--  @supabase/auth-ui-react,
--  @supabase/auth-ui-shared,
--  @supabase/supabase-js,
--  debounce,
--  lodash,
--  moment,
--  next,
--  prisma,
--  react,
--  react-dom,
--  react-icons,
--  react-responsive-carousel,
--  react-toastify,
--  stripe
+1.  @prisma/client,
+2.  @stripe/stripe-js,
+3.  @supabase/auth-helpers-nextjs,
+4.  @supabase/auth-helpers-react,
+5.  @supabase/auth-ui-react,
+6.  @supabase/auth-ui-shared,
+7.  @supabase/supabase-js,
+8.  debounce,
+9.  lodash,
+10. moment,
+11. next,
+12. prisma,
+13. react,
+14. react-dom,
+15. react-icons,
+16. react-responsive-carousel,
+17. react-toastify,
+18. stripe
 *****
 
 ## Technologies Used
