@@ -29,13 +29,13 @@ These enhancements will not only broaden the user base but also establish our pl
 
 *****
 ## Dependencies
-1.  @prisma/client,
-2.  @stripe/stripe-js,
-3.  @supabase/auth-helpers-nextjs,
-4.  @supabase/auth-helpers-react,
-5.  @supabase/auth-ui-react,
-6.  @supabase/auth-ui-shared,
-7.  @supabase/supabase-js,
+1.  prisma/client,
+2.  stripe/stripe-js,
+3.  supabase/auth-helpers-nextjs,
+4.  supabase/auth-helpers-react,
+5.  supabase/auth-ui-react,
+6.  supabase/auth-ui-shared,
+7.  supabase/supabase-js,
 8.  debounce,
 9.  lodash,
 10. moment,
