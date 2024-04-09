@@ -29,10 +29,26 @@ These enhancements will not only broaden the user base but also establish our pl
 
 *****
 ## Dependencies
-- react
-- react-dom
-- next
+-  @prisma/client,
+-  @stripe/stripe-js,
+-  @supabase/auth-helpers-nextjs,
+-  @supabase/auth-helpers-react,
+-  @supabase/auth-ui-react,
+-  @supabase/auth-ui-shared,
+-  @supabase/supabase-js,
+-  debounce,
+-  lodash,
+-  moment,
+-  next,
+-  prisma,
+-  react,
+-  react-dom,
+-  react-icons,
+-  react-responsive-carousel,
+-  react-toastify,
+-  stripe
 *****
+
 ## Technologies Used
 1. Reactjs
 2. NextJS
