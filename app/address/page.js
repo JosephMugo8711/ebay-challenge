@@ -12,7 +12,7 @@ import { useRouter } from "next/navigation"
 import { toast } from 'react-toastify';
 import ClientOnly from "../components/ClientOnly"
 
-export default function Home() {
+export default function Address() {
     const router = useRouter()
     const { user } = useUser()
 
